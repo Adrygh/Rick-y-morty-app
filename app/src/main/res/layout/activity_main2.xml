@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2"
+    android:background="@android:color/background_dark">
+
+
+    <TableRow >
+        <ImageView
+            android:id="@+id/ventana1"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            app:srcCompat="@drawable/ventanaa"
+            android:layout_marginVertical="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:layout_marginHorizontal="30dp"
+            />
+
+        <TextView
+            android:id="@+id/tTextoMain2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="-199dp"
+            android:text="Venga pulsa un portal"
+            android:fontFamily="casual"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:textSize="30dp"
+            />
+
+    </TableRow>
+
+    <TableRow  >
+
+        <ImageView
+            android:id="@+id/ventana2"
+            android:layout_width="167dp"
+            android:layout_height="150dp"
+            android:layout_gravity="left"
+            android:layout_marginHorizontal="10dp"
+            app:srcCompat="@drawable/ventanaa" />
+
+        <ImageView
+            android:id="@+id/ventana4"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            app:srcCompat="@drawable/ventanaa"
+            android:layout_gravity="left"
+
+
+            />
+
+    </TableRow>
+
+
+    <TableRow >
+        <ImageView
+            android:id="@+id/ventana3"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+
+            app:srcCompat="@drawable/ventanaa"
+            android:layout_gravity="left"
+            android:layout_marginHorizontal="102dp"
+            />
+
+    </TableRow>
+
+
+</TableLayout>
